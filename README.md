@@ -19,7 +19,7 @@
 
 ### I make enterprise IT operations quieter, clearer and more predictable.
 
-I'm a **Team Leader for BMC Helix ITOM & AIOps** at Diyar United Company in Kuwait, with **20+ years** of enterprise
+I'm a **Team Leader for BMC Helix ITOM & AIOps** at a Kuwait-based IT solutions provider, with **20+ years** of enterprise
 IT delivery behind me — from field engineering and SCCM/SCOM on an oil & gas estate, through **14 years as a Senior
 Solutions Architect**, to leading a team that designs and runs **BMC Helix Operations Management, event correlation,
 Discovery, CMDB and AIOps** for organizations across the Middle East and Asia.
@@ -292,13 +292,13 @@ questions, anti-patterns, KPIs and a go-live checklist. Written for BMC Helix pr
 
 | Years | Role | Highlights |
 |---|---|---|
-| **2025 – now** | **Team Leader, BMC Helix ITOM & AIOps** · Diyar United | Leads strategy, delivery and operations of Helix ITOM; predictive operations, event management, workflow automation across the Middle East |
-| **2011 – 2025** | **Senior Solutions Architect** · Diyar United | BMC & Microsoft solutions for major organizations; presales, PoCs, C-level advisory, end-to-end delivery |
+| **2025 – now** | **Team Leader, BMC Helix ITOM & AIOps** · IT solutions provider, Kuwait | Leads strategy, delivery and operations of Helix ITOM; predictive operations, event management, workflow automation across the Middle East |
+| **2011 – 2025** | **Senior Solutions Architect** · IT solutions provider, Kuwait | BMC & Microsoft solutions for major organizations; presales, PoCs, C-level advisory, end-to-end delivery |
 | **2009 – 2011** | **Microsoft IT Consultant** · oil & gas project | SCCM software deployment and remote control; SUS → SCCM patching; SCOM monitoring for clustered databases |
 | **2007 – 2008** | **Business Desktops Deployment Lead** · oil & gas project | Enterprise Windows 7 rollout under policy; MED-V virtualization of drilling applications |
 | **2005 – 2007** | **Technical Workshop Supervisor** · oil & gas project | Hyper-V automated builds; ITIL incident, problem and configuration management on BMC Helpdesk |
-| **2004 – 2005** | **IT Trainer / Administrator** · St. Joseph's Convent, Cyprus | Systems administration and IT training |
-| **2000 – 2004** | **B.S. Computer Science** · Cyprus College | |
+| **2004 – 2005** | **IT Trainer / Administrator** · Cyprus | Systems administration and IT training |
+| **2000 – 2004** | **B.S. Computer Science** · Cyprus | |
 
 ---
 
