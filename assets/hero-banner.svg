@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-labelledby="t d">
+  <title id="t">Shobin Mathews — Enterprise IT Operations Architect</title>
+  <desc id="d">BMC Helix AIOps, Observability, Event Correlation, Discovery and CMDB, Automation. Kuwait.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131F"/>
+      <stop offset="1" stop-color="#0E2236"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="18" fill="url(#grid)"/>
+
+  <!-- Correlation motif: many events converge into one service -->
+  <g transform="translate(1010 170)">
+    <circle r="120" fill="url(#glow)"/>
+    <g stroke="#2DD4BF" stroke-opacity="0.35" stroke-width="1.4" fill="none">
+      <path d="M-210 -110 C -120 -100, -60 -40, 0 0"/>
+      <path d="M-230 -40 C -140 -40, -70 -15, 0 0"/>
+      <path d="M-225 40 C -140 40, -70 15, 0 0"/>
+      <path d="M-200 115 C -120 100, -60 40, 0 0"/>
+      <path d="M-150 -150 C -90 -110, -40 -50, 0 0"/>
+      <path d="M-140 150 C -90 110, -40 50, 0 0"/>
+    </g>
+    <g fill="#94A3B8">
+      <circle cx="-210" cy="-110" r="5"/><circle cx="-230" cy="-40" r="5"/>
+      <circle cx="-225" cy="40" r="5"/><circle cx="-200" cy="115" r="5"/>
+      <circle cx="-150" cy="-150" r="4"/><circle cx="-140" cy="150" r="4"/>
+    </g>
+    <g fill="#F59E0B">
+      <circle cx="-230" cy="-40" r="5"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="-200" cy="115" r="5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    </g>
+    <circle r="34" fill="#0B1B2B" stroke="#2DD4BF" stroke-width="2.5"/>
+    <circle r="34" fill="none" stroke="#2DD4BF" stroke-width="2" opacity="0.6">
+      <animate attributeName="r" values="34;54" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M-14 2 L-4 12 L15 -10" fill="none" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="66" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94A3B8" letter-spacing="2">1 SITUATION · 1 SERVICE</text>
+  </g>
+
+  <!-- Text block -->
+  <g font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+    <text x="64" y="86" font-size="14" fill="#2DD4BF" letter-spacing="4" font-weight="600">KUWAIT · 20+ YEARS · 6 COUNTRIES</text>
+    <text x="64" y="146" font-size="54" fill="#F8FAFC" font-weight="700" letter-spacing="1">Shobin Mathews</text>
+    <text x="64" y="188" font-size="26" fill="#CBD5E1" font-weight="400">Enterprise IT Operations Architect</text>
+    <rect x="64" y="210" width="56" height="3" rx="1.5" fill="#F59E0B"/>
+    <text x="64" y="250" font-size="17" fill="#94A3B8">BMC Helix AIOps  ·  Observability  ·  Event Correlation  ·  Discovery &amp; CMDB  ·  Automation</text>
+    <text x="64" y="284" font-size="15" fill="#64748B" font-style="italic">Fewer alerts. Clearer services. Evidence over marketing.</text>
+  </g>
+</svg>
