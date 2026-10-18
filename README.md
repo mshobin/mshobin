@@ -297,6 +297,7 @@ questions, anti-patterns, KPIs and a go-live checklist. Written for BMC Helix pr
 | **2009 – 2011** | **Microsoft IT Consultant** · oil & gas project | SCCM software deployment and remote control; SUS → SCCM patching; SCOM monitoring for clustered databases |
 | **2007 – 2008** | **Business Desktops Deployment Lead** · oil & gas project | Enterprise Windows 7 rollout under policy; MED-V virtualization of drilling applications |
 | **2005 – 2007** | **Technical Workshop Supervisor** · oil & gas project | Hyper-V automated builds; ITIL incident, problem and configuration management on BMC Helpdesk |
+| **2004 – 2005** | **IT Trainer / Administrator** | Systems administration and IT training |
 
 ---
 
