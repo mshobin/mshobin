@@ -99,8 +99,8 @@ volunteers, and a service-day checklist — plus developer guides for branching,
 Code signing (SignPath Foundation, applied Nov 2026) · Playwright UI tests in CI for Go Live, stepping, Hide all,
 remote and annotation · a song / lyrics library. *Done:* licence chosen and repository published under Apache 2.0.
 
-## 8 · Screenshots strategy
+## 8 · Screenshots
 
-The FrameDecks repository has no screenshots yet (only brand assets in `assets/brand/`). Add a `docs/images/` folder
-with the Studio, the Presentation window, annotate, and the phone remote; a 10-second GIF of Go Live → Next → Black
-screen; and a photo of a real room setup with no faces visible. Then reference them here and in the FrameDecks README.
+Real captures of the Studio, the Presentation window, the phone remote and a short Go Live → Next → Black screen GIF
+are in the [FrameDecks README](https://github.com/mshobin/FrameDecks#screenshots) (`docs/images/`). Still to add: a
+photo of a real room setup with no faces visible.

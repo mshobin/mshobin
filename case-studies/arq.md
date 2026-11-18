@@ -49,7 +49,7 @@ flowchart TB
   CP --> BK[cv-backup<br>signed manifests, two-phase restore]
   IDX --> EX[cv-extract worker<br>separate process, Job Object, memory cap]
   EX --> OCR[cv-ocr<br>Tesseract + isolated PDF rasterizer]
-  IDX & SR & RAG & HUB & FIN & BK --> DB[(cv-db<br>SQLCipher, 18 checksummed migrations)]
+  IDX & SR & RAG & HUB & FIN & BK --> DB[(cv-db<br>SQLCipher, 19 checksummed migrations)]
   DB --- KEY[cv-secrets<br>DPAPI key + household recovery passphrase]
   CP --> AUD[cv-audit<br>tamper-evident sealed log]
 ```
