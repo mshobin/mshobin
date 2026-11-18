@@ -8,7 +8,7 @@
 |---|---|
 | **Role** | Product owner, architect and sole engineer |
 | **Status** | v0.3.0 (Oct 2026) · working, tested build · **not production-ready** by its own 20-gate checklist (12 ✅ · 7 ⚠ · 1 ❌) |
-| **Stack** | Rust (22-crate workspace) · Tauri 2 · React + TypeScript · SQLite / SQLCipher · Windows DPAPI · Tesseract (optional) · GitHub Actions |
+| **Stack** | Rust (23-crate workspace) · Tauri 2 · React + TypeScript · SQLite / SQLCipher · Windows DPAPI · Tesseract (optional) · GitHub Actions |
 | **Source** | Private. Available for walkthrough on request. |
 
 ---
@@ -49,7 +49,7 @@ flowchart TB
   CP --> BK[cv-backup<br>signed manifests, two-phase restore]
   IDX --> EX[cv-extract worker<br>separate process, Job Object, memory cap]
   EX --> OCR[cv-ocr<br>Tesseract + isolated PDF rasterizer]
-  IDX & SR & RAG & HUB & FIN & BK --> DB[(cv-db<br>SQLCipher, 18 checksummed migrations)]
+  IDX & SR & RAG & HUB & FIN & BK --> DB[(cv-db<br>SQLCipher, 19 checksummed migrations)]
   DB --- KEY[cv-secrets<br>DPAPI key + household recovery passphrase]
   CP --> AUD[cv-audit<br>tamper-evident sealed log]
 ```

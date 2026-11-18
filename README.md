@@ -11,6 +11,7 @@
 <p align="center">
   <a href="mailto:mshobin@outlook.com"><img src="https://img.shields.io/badge/Email-mshobin%40outlook.com-0E2236?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/mshobin/"><img src="https://img.shields.io/badge/LinkedIn-mshobin-0E2236?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://framedecks.com"><img src="https://img.shields.io/badge/FrameDecks-framedecks.com-0E2236?style=for-the-badge&logo=googlechrome&logoColor=2DD4BF" alt="FrameDecks website"></a>
   <img src="https://img.shields.io/badge/Based_in-Kuwait-0E2236?style=for-the-badge&logo=googlemaps&logoColor=2DD4BF" alt="Based in Kuwait">
   <img src="https://img.shields.io/badge/Delivery-GCC_%2B_Asia-0E2236?style=for-the-badge&logo=globe&logoColor=2DD4BF" alt="Delivery across GCC and Asia">
 </p>
@@ -177,7 +178,7 @@ A private, **local-first document and household finance intelligence platform** 
 your own files, keep an exact ledger and share selected documents with family — with no cloud, no accounts and no
 telemetry.
 
-**Engineering:** 22-crate Rust workspace · Tauri + React/TypeScript · SQLCipher encryption at rest ·
+**Engineering:** 23-crate Rust workspace · Tauri + React/TypeScript · SQLCipher encryption at rest ·
 isolated extraction workers · 13 ADRs · threat model · 20-gate production-readiness checklist · CycloneDX SBOM ·
 benchmarks to 100k files (search p95 under 100 ms at 10k).
 
@@ -188,28 +189,38 @@ benchmarks to 100k files (search p95 under 100 ms at 10k).
 </td>
 <td width="50%" valign="top">
 
-### ⛪ Kingdom Connect — Connect. Present. Worship.
-A **service presentation platform for churches**: plan a service as Frames, then present to the room, to
-Zoom / Teams / Meet through its own virtual camera, and to a stream — run from a PC, phone or iPad. Built for
-volunteers, offline by default.
+### ⛪ FrameDecks — Present. Equip. Inspire.
+A **service presentation platform for churches and ministries**: plan a service as Frames, then present to the room,
+to Zoom / Teams / Meet through its own virtual camera, and to a stream — run from a PC, phone or iPad. Built for
+volunteers; a service keeps running without internet. **Open source (Apache 2.0)**, free from
+[framedecks.com](https://framedecks.com).
 
-**Engineering:** Python backend + vanilla JS front end · virtual camera with background segmentation ·
-PIN-protected phone remote · CI-built Windows installer with checksums · role-based guides for church teams ·
-20+ versions shipped, v4.0 → v6.6.
+**Engineering:** Python desktop app + vanilla JS front end · FrameDecks vCam with background segmentation ·
+PIN-protected phone remote · optional Next.js + Supabase web companion on Cloudflare Pages · CI-built Windows
+installer with checksums · role-based guides for church teams · 100+ releases, v4.0 → v26.11.
 
-`Python` `JavaScript` `MediaPipe` `Inno Setup` `GitHub Actions`
+`Python` `JavaScript` `Next.js` `Supabase` `MediaPipe` `Inno Setup` `GitHub Actions`
 
-**[Read the case study →](case-studies/kingdom-connect.md)** <sub>· source private</sub>
+**[Read the case study →](case-studies/framedecks.md)** <sub>· [source on GitHub](https://github.com/mshobin/FrameDecks) · product contact: hello@framedecks.com</sub>
 
 </td>
 </tr>
 </table>
 
-### 🧭 Open source · ITOM
+### 🧭 Open source
 
 <table>
 <tr>
-<td valign="top">
+<td width="50%" valign="top">
+
+**[FrameDecks](https://github.com/mshobin/FrameDecks)** — the church service presentation platform featured above,
+published in full: desktop app, virtual camera build, web companion, CI pipeline, role-based guides and design
+history.
+
+`Python` `JavaScript` `Next.js` `Supabase` `Apache-2.0`
+
+</td>
+<td width="50%" valign="top">
 
 **[itom-reference-architectures](https://github.com/mshobin/itom-reference-architectures)** — reference designs for
 event management & correlation and Discovery → CMDB → service model, each with architecture diagrams, ADRs, sizing
@@ -283,7 +294,7 @@ questions, anti-patterns, KPIs and a go-live checklist. Written for BMC Helix pr
 | Discovery, CMDB & service modeling | ●●●●○ Advanced | Helix ITOM implementations |
 | Microsoft systems management (SCCM, SCOM, AD/GPO) | ●●●●○ Advanced | Oil & gas estate: deployment, patching, monitoring |
 | Automation (Python, PowerShell, REST) | ●●●●○ Advanced | Integrations; product build and release tooling |
-| Product engineering (Rust, TypeScript, Python) | ●●●●○ Advanced | A.R.Q. and Kingdom Connect |
+| Product engineering (Rust, TypeScript, Python) | ●●●●○ Advanced | A.R.Q. and FrameDecks |
 | Security engineering (threat models, encryption, supply chain) | ●●●○○ Proficient | A.R.Q. threat model, SBOM, cargo-deny, SQLCipher |
 
 ---
@@ -316,16 +327,12 @@ questions, anti-patterns, KPIs and a go-live checklist. Written for BMC Helix pr
 - Predictive, service-centric operations on **BMC Helix AIOps**
 - Event correlation patterns that cut noise without hiding real failures
 - Publishing reusable ITOM patterns — [itom-reference-architectures](https://github.com/mshobin/itom-reference-architectures) — and tooling here on GitHub
+- Code-signing **FrameDecks** installers through the SignPath Foundation open-source programme (applied November 2026)
 - Taking **A.R.Q.** through its open production gates: code signing, clean-VM installer tests, external security review
 
 ---
 
 ## 📈 GitHub activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mshobin&show_icons=true&hide_border=true&bg_color=0E2236&title_color=2DD4BF&icon_color=F59E0B&text_color=CBD5E1&count_private=true" alt="GitHub stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mshobin&layout=compact&hide_border=true&bg_color=0E2236&title_color=2DD4BF&text_color=CBD5E1" alt="Top languages" height="165">
-</p>
 
 <p align="center">
   <picture>
