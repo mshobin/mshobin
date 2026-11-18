@@ -177,7 +177,7 @@ A private, **local-first document and household finance intelligence platform** 
 your own files, keep an exact ledger and share selected documents with family — with no cloud, no accounts and no
 telemetry.
 
-**Engineering:** 22-crate Rust workspace · Tauri + React/TypeScript · SQLCipher encryption at rest ·
+**Engineering:** 23-crate Rust workspace · Tauri + React/TypeScript · SQLCipher encryption at rest ·
 isolated extraction workers · 13 ADRs · threat model · 20-gate production-readiness checklist · CycloneDX SBOM ·
 benchmarks to 100k files (search p95 under 100 ms at 10k).
 
@@ -188,18 +188,19 @@ benchmarks to 100k files (search p95 under 100 ms at 10k).
 </td>
 <td width="50%" valign="top">
 
-### ⛪ Kingdom Connect — Connect. Present. Worship.
-A **service presentation platform for churches**: plan a service as Frames, then present to the room, to
-Zoom / Teams / Meet through its own virtual camera, and to a stream — run from a PC, phone or iPad. Built for
-volunteers, offline by default.
+### ⛪ FrameDecks — Present. Equip. Inspire.
+A **service presentation platform for churches and ministries**: plan a service as Frames, then present to the room,
+to Zoom / Teams / Meet through its own virtual camera, and to a stream — run from a PC, phone or iPad. Built for
+volunteers; a service keeps running without internet. **Open source (Apache 2.0)**, free from
+[framedecks.com](https://framedecks.com).
 
-**Engineering:** Python backend + vanilla JS front end · virtual camera with background segmentation ·
-PIN-protected phone remote · CI-built Windows installer with checksums · role-based guides for church teams ·
-20+ versions shipped, v4.0 → v6.6.
+**Engineering:** Python desktop app + vanilla JS front end · FrameDecks vCam with background segmentation ·
+PIN-protected phone remote · optional Next.js + Supabase web companion on Cloudflare Pages · CI-built Windows
+installer with checksums · role-based guides for church teams · 100+ releases, v4.0 → v26.11.
 
-`Python` `JavaScript` `MediaPipe` `Inno Setup` `GitHub Actions`
+`Python` `JavaScript` `Next.js` `Supabase` `MediaPipe` `Inno Setup` `GitHub Actions`
 
-**[Read the case study →](case-studies/kingdom-connect.md)** <sub>· source private</sub>
+**[Read the case study →](case-studies/framedecks.md)** <sub>· [source on GitHub](https://github.com/mshobin/FrameDecks)</sub>
 
 </td>
 </tr>
@@ -283,7 +284,7 @@ questions, anti-patterns, KPIs and a go-live checklist. Written for BMC Helix pr
 | Discovery, CMDB & service modeling | ●●●●○ Advanced | Helix ITOM implementations |
 | Microsoft systems management (SCCM, SCOM, AD/GPO) | ●●●●○ Advanced | Oil & gas estate: deployment, patching, monitoring |
 | Automation (Python, PowerShell, REST) | ●●●●○ Advanced | Integrations; product build and release tooling |
-| Product engineering (Rust, TypeScript, Python) | ●●●●○ Advanced | A.R.Q. and Kingdom Connect |
+| Product engineering (Rust, TypeScript, Python) | ●●●●○ Advanced | A.R.Q. and FrameDecks |
 | Security engineering (threat models, encryption, supply chain) | ●●●○○ Proficient | A.R.Q. threat model, SBOM, cargo-deny, SQLCipher |
 
 ---

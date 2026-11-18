@@ -8,7 +8,7 @@
 |---|---|
 | **Role** | Product owner, architect and sole engineer |
 | **Status** | v0.3.0 (Oct 2026) · working, tested build · **not production-ready** by its own 20-gate checklist (12 ✅ · 7 ⚠ · 1 ❌) |
-| **Stack** | Rust (22-crate workspace) · Tauri 2 · React + TypeScript · SQLite / SQLCipher · Windows DPAPI · Tesseract (optional) · GitHub Actions |
+| **Stack** | Rust (23-crate workspace) · Tauri 2 · React + TypeScript · SQLite / SQLCipher · Windows DPAPI · Tesseract (optional) · GitHub Actions |
 | **Source** | Private. Available for walkthrough on request. |
 
 ---

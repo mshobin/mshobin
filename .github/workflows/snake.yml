@@ -1,7 +1,7 @@
 # Generates the animated contribution graph shown in the profile README.
 # Output is pushed to the "output" branch of this repo (mshobin/mshobin).
 # Tip: turn on Settings → Profile → "Include private contributions on my profile" so
-# work in private repos (A.R.Q., Kingdom Connect) shows up on the graph.
+# work in private repos (e.g. A.R.Q.) shows up on the graph.
 name: Contribution graph
 
 on:
